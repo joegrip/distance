@@ -26,6 +26,26 @@
   text-align:center;
 }
 
+.instructionText
+{
+  font-size: 1.5vmax;
+  text-align: left;
+
+}
+
+.card
+{
+  border-style: solid;
+  border-color: #132F33;
+  background-color: #F5F5F5	;
+  color: #132F33;
+  display:none;
+  width:80%;
+  border-radius: 2vmax;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 2px 8px;
+}
 
 .navbar
 {
@@ -97,13 +117,15 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 .buttonC {
   border: none;
-  background-color: grey;
+  background-color: #132F33;
+  border-radius: 0.35vmax;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.5vmax;
+  margin-bottom: 4%;
 }
 
 .link{

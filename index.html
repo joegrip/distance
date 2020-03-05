@@ -25,16 +25,34 @@
         </a>
         <div class="link">
             <a href="https://github.com/joegrip/distance">
-                <p style="color:white;">Contribute<p>
+                <p style="color:white;">Contribute on GitHub<p>
             </a>
         </div>
       </div>
     <div class="main">
-        <div class = "Row" >
+        <div class = "Row">
             <div class="Column" style="width:100%;font-size:1vmax;">
                 <h1>Calculate the Distance between lists of Zip Codes</h1>
             </div>
         </div>
+        <div class = "Row" >
+            <div class = "Column">
+                <button type="button" class="buttonC" style="font-size: 1vmax;padding: 11px 15px;"onclick="popup()">Instructions</button> 
+                <div class = "card" id="card">
+                    <p style="text-decoration: underline;font-size: 2.5vmax;margin:3%;">Instructions</p>
+                    <div class="instructionText">
+                        <p>Enter two lists of zip codes to find the driving distance between them<br><br>
+                        Separate zip codes with semicolons, commas, new lines or spaces <br><br>
+                        Enter up to 250 zip code pairs<br><br>
+                        The ad-supported tier allows for 500 requests per week<br><br>
+                        The driving distance is calculated using Google Maps <br><br>
+                        Contact Gripenstraw LLC on <a href="https://www.linkedin.com/company/gripenstraw-llc">LinkedIn</a> with feedback.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class = "Row" >
             <div class="Column" >
                 <label for="fname" style="font-size:2vmax;">From: </label><br>
@@ -47,7 +65,7 @@
         </div>
         <div class = "Row">
             <div class = "buttonCon">
-                <button type="button" class="buttonC" onclick="handler()">Submit</button>
+                <button type="button" class="buttonC" onclick="handler()">Calculate</button>
             </div>
         </div>
         <div class = "Row">
