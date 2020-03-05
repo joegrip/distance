@@ -1,0 +1,121 @@
+.Row {
+    display: table;
+    width: 100%; 
+    table-layout: fixed; 
+    border-spacing: 10px; 
+}
+.Column {
+    display: table-cell;
+    align-items: center;
+    text-align: center;
+}
+
+.container
+{
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  height: 150%;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+.buttonCon
+{
+  text-align:center;
+}
+
+
+.navbar
+{
+  align-items: center;
+  background-color: #132F33;
+  width: 60%;
+  position: fixed;
+  height: 7vmax;
+  top: 0;
+}
+.navbar img
+{
+  position: fixed;
+  height: 7vmax;
+  left:0;
+  top: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  font-family: 'Roboto';
+  margin-top: 10vmax; 
+  height: 100%;
+
+}
+.textForm
+{
+    width: 30%;
+    height: 100%;
+} 
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+  }
+
+th,td{
+  text-align: center;
+  padding: 0.5vmax;
+  width: 21.6vmax;
+  font-size: 2vmax;
+}
+
+td {
+  text-align: center;
+}
+
+tr:hover {background-color: #f5f5f5;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.tableWrapper
+{
+  text-align: center;
+  overflow-x:auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65vw;
+
+}
+
+.buttonC {
+  border: none;
+  background-color: grey;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.link{
+  margin-top: 4vmax;
+  text-align: right;
+  color: white !important;
+  font-size: 1vw !important;
+  font-family: 'Roboto' !important;
+  padding: 1%;
+}
+
+
+@media screen and (max-width: 600px) {
+  link{background-color: lightblue;}
+}

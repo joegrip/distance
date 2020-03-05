@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> 
+    <script src='./scripts/handler.js'>
+    </script>
+<header><title>Distance Calculator</title></header>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <a href="https://www.linkedin.com/company/gripenstraw-llc">
+        <img src="assets/images/LLCLogo.png" alt="Gripenstraw LLC Logo">
+        </a>
+        <div class="link">
+            <a href="https://github.com/joegrip/distance">
+                <p style="color:white;">Contribute<p>
+            </a>
+        </div>
+      </div>
+    <div class="main">
+        <div class = "Row" >
+            <div class="Column" style="width:100%;font-size:1vmax;">
+                <h1>Calculate the Distance between lists of Zip Codes</h1>
+            </div>
+        </div>
+        <div class = "Row" >
+            <div class="Column" >
+                <label for="fname" style="font-size:2vmax;">From: </label><br>
+                <textarea name="from" id = "from" style="width:20vw;height:30vh;"></textarea>
+            </div>
+            <div class="Column">
+                <label for="lname" style="font-size:2vmax;">To:</label><br>
+                <textarea name="to" id = "to" style="width:20vw;height:30vh;"></textarea>
+            </div>
+        </div>
+        <div class = "Row">
+            <div class = "buttonCon">
+                <button type="button" class="buttonC" onclick="handler()">Submit</button>
+            </div>
+        </div>
+        <div class = "Row">
+            <div class = "tableWrapper">
+            <table id="table" style="display: none;">
+            </table>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
